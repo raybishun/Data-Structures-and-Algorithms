@@ -1,0 +1,16 @@
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\DSAlgosDotNet5.exe
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\DSAlgosDotNet5.deps.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\DSAlgosDotNet5.runtimeconfig.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\DSAlgosDotNet5.runtimeconfig.dev.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\DSAlgosDotNet5.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\ref\DSAlgosDotNet5.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\DSAlgosDotNet5.pdb
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\DSAlgosDotNet5.csprojAssemblyReference.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\DSAlgosDotNet5.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\DSAlgosDotNet5.AssemblyInfoInputs.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\DSAlgosDotNet5.AssemblyInfo.cs
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\DSAlgosDotNet5.csproj.CoreCompileInputs.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\DSAlgosDotNet5.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\ref\DSAlgosDotNet5.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\DSAlgosDotNet5.pdb
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\DSAlgosDotNet5.genruntimeconfig.cache
