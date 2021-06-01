@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\DSAlgosDotNet5\\DSAlgosDotNet5.csproj",
-      "projectName": "DSAlgosDotNet5",
-      "projectPath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\DSAlgosDotNet5\\DSAlgosDotNet5.csproj",
+      "projectUniqueName": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\LinkedList.csproj",
+      "projectName": "LinkedList",
+      "projectPath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\LinkedList.csproj",
       "packagesPath": "C:\\Users\\raybi\\.nuget\\packages\\",
-      "outputPath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\DSAlgosDotNet5\\obj\\",
+      "outputPath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

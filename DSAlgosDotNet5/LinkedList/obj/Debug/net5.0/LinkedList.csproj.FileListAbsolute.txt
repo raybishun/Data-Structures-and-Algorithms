@@ -1,0 +1,16 @@
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\LinkedList.exe
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\LinkedList.deps.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\LinkedList.runtimeconfig.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\LinkedList.runtimeconfig.dev.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\LinkedList.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\ref\LinkedList.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\bin\Debug\net5.0\LinkedList.pdb
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\LinkedList.csprojAssemblyReference.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\LinkedList.AssemblyInfoInputs.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\LinkedList.AssemblyInfo.cs
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\LinkedList.csproj.CoreCompileInputs.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\LinkedList.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\ref\LinkedList.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\LinkedList.pdb
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\DSAlgosDotNet5\obj\Debug\net5.0\LinkedList.genruntimeconfig.cache
