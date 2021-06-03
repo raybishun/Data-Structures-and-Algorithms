@@ -8,80 +8,80 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
-            singlyLinkedList.insertFirst(100);
-            singlyLinkedList.insertFirst(50);
-            singlyLinkedList.insertFirst(99);
-            singlyLinkedList.insertFirst(88);
-            singlyLinkedList.dispalyList();
+            SinglyLinkedList singlyLinkedList = new();
 
-            singlyLinkedList.insertLast(999);
-            singlyLinkedList.dispalyList();
+            singlyLinkedList.InsertFirst(100);
+            singlyLinkedList.InsertFirst(50);
+            singlyLinkedList.InsertFirst(99);
+            singlyLinkedList.InsertFirst(88);
+            singlyLinkedList.DispalyList();
 
-            singlyLinkedList.deleteFirst();
-            singlyLinkedList.dispalyList();
+            singlyLinkedList.InsertLast(999);
+            singlyLinkedList.DispalyList();
+
+            singlyLinkedList.DeleteFirst();
+            singlyLinkedList.DispalyList();
         }
     }
 
     public class SinglyLinkedList
     {
-        private Node first;
-        public bool isEmpty()
+        private Node firstNode;
+        public bool IsEmpty()
         {
-            return first == null;
+            return firstNode == null;
         }
 
-        public void insertFirst(int data)
+        public void InsertFirst(int data)
         {
-            Node newNode = new Node();
-            newNode.data = data;
-            newNode.next = first;
-            first = newNode;
+            Node newNode = new();
+            newNode.Data = data;
+            newNode.NextNode = firstNode;
+            firstNode = newNode;
         }
 
-        public Node deleteFirst()
+        public Node DeleteFirst()
         {
-            Node temp = first;
-            first = first.next;
+            Node temp = firstNode;
+            firstNode = firstNode.NextNode;
             return temp;
         }
 
-        public void dispalyList()
+        public void DispalyList()
         {
             Console.WriteLine("List (first -- last)");
-            Node current = first;
+            Node current = firstNode;
             while (current != null)
             {
                 current.DispalyNode();
-                current = current.next;
+                current = current.NextNode;
             }
 
             Console.WriteLine();
         }
 
-        public void insertLast(int data)
+        public void InsertLast(int data)
         {
-            Node current = first;
-            while (current.next != null)
+            Node current = firstNode;
+            while (current.NextNode != null)
             {
-                current = current.next;
+                current = current.NextNode;
             }
 
-            Node newNode = new Node();
-            newNode.data = data;
-            current.next = newNode;
+            Node newNode = new();
+            newNode.Data = data;
+            current.NextNode = newNode;
         }
     }
 
-
     public class Node  
     {
-        public int data;
-        public Node next;
-
+        public int Data { get; set; }
+        public Node NextNode { get; set; }
+        
         public void DispalyNode() 
         {
-            Console.WriteLine($"< {data} >");
+            Console.WriteLine($"< {Data} >");
         }
     }
 }
