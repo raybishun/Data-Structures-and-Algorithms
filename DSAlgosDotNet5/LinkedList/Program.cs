@@ -8,7 +8,18 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
-            
+            SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
+            singlyLinkedList.insertFirst(100);
+            singlyLinkedList.insertFirst(50);
+            singlyLinkedList.insertFirst(99);
+            singlyLinkedList.insertFirst(88);
+            singlyLinkedList.dispalyList();
+
+            singlyLinkedList.insertLast(999);
+            singlyLinkedList.dispalyList();
+
+            singlyLinkedList.deleteFirst();
+            singlyLinkedList.dispalyList();
         }
     }
 
@@ -34,7 +45,34 @@ namespace LinkedList
             first = first.next;
             return temp;
         }
+
+        public void dispalyList()
+        {
+            Console.WriteLine("List (first -- last)");
+            Node current = first;
+            while (current != null)
+            {
+                current.DispalyNode();
+                current = current.next;
+            }
+
+            Console.WriteLine();
+        }
+
+        public void insertLast(int data)
+        {
+            Node current = first;
+            while (current.next != null)
+            {
+                current = current.next;
+            }
+
+            Node newNode = new Node();
+            newNode.data = data;
+            current.next = newNode;
+        }
     }
+
 
     public class Node  
     {
