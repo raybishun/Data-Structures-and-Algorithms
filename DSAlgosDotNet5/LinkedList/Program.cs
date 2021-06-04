@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 // Singly Linked List
 
@@ -74,14 +75,70 @@ namespace LinkedList
         }
     }
 
-    public class Node  
+    public class Node
     {
         public int Data { get; set; }
         public Node NextNode { get; set; }
-        
-        public void DispalyNode() 
+
+        public void DispalyNode()
         {
             Console.WriteLine($"< {Data} >");
+        }
+    }
+
+    public class LinkedListDemo
+    {
+
+        private static void Demo1()
+        {
+            string[] words = { "the", "actor", "jumped", "over", "the", "director" };
+            LinkedList<string> sentence = new LinkedList<string>(words);
+            Display(sentence, "The linked list values:");
+
+            sentence.AddFirst("today");
+            Display(sentence, "Test 1: Add 'today' to beginning of the list");
+
+            LinkedListNode<string> mark1 = sentence.First;
+            sentence.RemoveFirst();
+            sentence.AddLast(mark1);
+            Display(sentence, "Test 2: Move first node to be last node:");
+
+            sentence.RemoveLast();
+            sentence.AddLast("yesterday");
+            Display(sentence, "Test 3: Change the last node to 'yesterday':");
+
+            mark1 = sentence.Last;
+            sentence.RemoveLast();
+            sentence.AddFirst(mark1);
+            Display(sentence, "Test 4: Move last node to be first node:");
+
+            sentence.RemoveFirst();
+            LinkedListNode<string> current = sentence.FindLast("the");
+            IndicateNode(current, "Test 5: Indicate last occurence of 'the':");
+
+            sentence.AddAfter(current, "old");
+            sentence.AddAfter(current, "lazy");
+            IndicateNode(current, "Test 6: Add 'lazy' and 'old' after 'the':");
+
+            current = sentence.Find("actor");
+            IndicateNode(current, "Test 7: INdicate the 'actor' node:");
+
+            sentence.AddBefore(current, "quick");
+            sentence.AddBefore(current, "skinny");
+            IndicateNode(current, "Test 8: Add 'quick' and 'skinny' before 'actor':");
+
+            Console.ReadLine();
+
+        }
+
+        private static void Display(LinkedList<string> linkedList, string data)
+        {
+            Console.WriteLine($"{linkedList}\n{data}");
+        }
+
+        private static void IndicateNode(LinkedListNode<string> current, string v)
+        {
+
         }
     }
 }
