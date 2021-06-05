@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 // Singly Linked List
 
@@ -88,7 +89,6 @@ namespace LinkedList
 
     public class LinkedListDemo
     {
-
         private static void Demo1()
         {
             string[] words = { "the", "actor", "jumped", "over", "the", "director" };
@@ -128,17 +128,46 @@ namespace LinkedList
             IndicateNode(current, "Test 8: Add 'quick' and 'skinny' before 'actor':");
 
             Console.ReadLine();
-
         }
 
-        private static void Display(LinkedList<string> linkedList, string data)
+        private static void Display(LinkedList<string> linkedList, string test)
         {
-            Console.WriteLine($"{linkedList}\n{data}");
+            Console.WriteLine(test);
+            foreach (string node in linkedList)
+            {
+                Console.Write($"{node} ");
+            }
+            Console.WriteLine();
+            Console.WriteLine();
         }
 
-        private static void IndicateNode(LinkedListNode<string> current, string v)
+        private static void IndicateNode(LinkedListNode<string> node, string test)
         {
+            Console.WriteLine(test);
+            if (node.List == null)
+            {
+                Console.WriteLine($"Node '{node.Value}' is not in the list.\n");
+                return;
+            }
 
+            StringBuilder result = new StringBuilder($"(\" {node.Value} \")");
+            LinkedListNode<string> nodeP = node.Previous;
+
+            while (nodeP != null)
+            {
+                result.Insert(0, $"{nodeP.Value} ");
+                nodeP = nodeP.Previous;
+            }
+
+            node = node.Next;
+            while (node != null)
+            {
+                result.Append($" {node.Value}");
+                node = node.Next;
+            }
+
+            Console.WriteLine(result);
+            Console.WriteLine();
         }
     }
 }
