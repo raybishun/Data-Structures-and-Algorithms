@@ -7,7 +7,22 @@ namespace Stack
     {
         static void Main(string[] args)
         {
-            
+            Stack theStack = new Stack(4);
+            theStack.Push("Star Wars");
+            theStack.Push("Jaws");
+            theStack.Push("Jaws2");
+            theStack.Push("Titanic");
+            theStack.Push("Rocky");
+
+            WriteLine("=================== \nAbout to Peek:\n");
+            WriteLine($"\'{theStack.Peek()}\' is at the top of the stack.\n");
+
+            WriteLine("=================== \nThe Stack Contains:\n");
+            while (!theStack.IsEmpty())
+            {
+                string movie = theStack.Pop();
+                WriteLine(movie);
+            }
         }
     }
 
@@ -52,14 +67,19 @@ namespace Stack
             }
         }
 
-        private bool IsFull()
+        public string Peek()
         {
-            return maxSize - 1 == top;
+            return stackArray[top];        
         }
 
-        private bool IsEmpty()
+        public bool IsEmpty()
         {
             return top == -1;
+        }
+
+        public bool IsFull()
+        {
+            return maxSize - 1 == top;
         }
     }
 }
