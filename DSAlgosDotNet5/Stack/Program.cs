@@ -1,13 +1,22 @@
 ﻿using System;
+using System.Collections.Generic;
 using static System.Console;
 
-namespace Stack
+namespace TheStack
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Stack theStack = new Stack(4);
+            MyStack.DoWork();
+        }
+    }
+
+    public class MyStack
+    {
+        public static void DoWork()
+        {
+            MyStack theStack = new MyStack(4);
             theStack.Push("Star Wars");
             theStack.Push("Jaws");
             theStack.Push("Jaws2");
@@ -24,15 +33,17 @@ namespace Stack
                 WriteLine(movie);
             }
         }
-    }
-
-    public class Stack 
-    {
+        
         private int maxSize;
         private string[] stackArray;
         private int top;
 
-        public Stack(int size)
+        public MyStack()
+        {
+
+        }
+
+        public MyStack(int size)
         {
             maxSize = size;
             stackArray = new string[maxSize];
@@ -45,7 +56,7 @@ namespace Stack
             {
                 WriteLine("Stack is full.");
             }
-            else 
+            else
             {
                 top++;
                 stackArray[top] = m;
@@ -59,7 +70,7 @@ namespace Stack
                 WriteLine("Stack is full.");
                 return "--";
             }
-            else 
+            else
             {
                 int old_top = top;
                 top--;
@@ -69,7 +80,7 @@ namespace Stack
 
         public string Peek()
         {
-            return stackArray[top];        
+            return stackArray[top];
         }
 
         public bool IsEmpty()
@@ -80,6 +91,21 @@ namespace Stack
         public bool IsFull()
         {
             return maxSize - 1 == top;
+        }
+    }
+
+    public class StackDemo
+    {
+        public static void DoWork()
+        {
+            Stack<string> names = new Stack<string>();
+            names.Push("Andrew");
+            names.Push("Bobby");
+            names.Push("Candy");
+            names.Push("Dana");
+            names.Push("Edith");
+
+            WriteLine("Deault content of stack");
         }
     }
 }
