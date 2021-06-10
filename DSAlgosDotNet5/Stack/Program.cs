@@ -8,7 +8,8 @@ namespace TheStack
     {
         static void Main(string[] args)
         {
-            MyStack.DoWork();
+            // MyStack.DoWork();
+            StackDemo.DoWork();
         }
     }
 
@@ -98,7 +99,7 @@ namespace TheStack
     {
         public static void DoWork()
         {
-            Stack<string> names = new Stack<string>();
+            Stack<string> names = new();
             names.Push("Andrew");
             names.Push("Bobby");
             names.Push("Candy");
@@ -106,6 +107,13 @@ namespace TheStack
             names.Push("Edith");
 
             WriteLine("Deault content of stack");
+
+            foreach (string name in names)
+            {
+                WriteLine(name);
+            }
+
+            WriteLine($"\nPopping {names.Pop()}");
         }
     }
 }
