@@ -114,6 +114,29 @@ namespace TheStack
             }
 
             WriteLine($"\nPopping {names.Pop()}");
+            WriteLine($"Peek at next item to display what will be stacked {names.Peek()}");
+            WriteLine($"Now, after peek, popping {names.Pop()}");
+
+            Stack<string> stack2 = new Stack<string>(names.ToArray());
+
+            WriteLine("\nContents of the first copy:");
+            foreach (string name in stack2)
+            {
+                WriteLine(name);
+            }
+
+            string[] array2 = new string[names.Count * 2];
+            names.CopyTo(array2, names.Count);
+
+            Stack<string> stack3 = new Stack<string>(array2);
+
+            WriteLine("\nContents of the 2nd copy, with dups and nulls:");
+            foreach (string name in stack3)
+            {
+                WriteLine(name);
+            }
+
+            WriteLine($"\nstack2.Contains (\"Dana\") = {stack2.Contains("Dana")}");
         }
     }
 }
