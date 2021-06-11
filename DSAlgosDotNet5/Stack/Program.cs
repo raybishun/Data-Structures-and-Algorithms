@@ -117,7 +117,7 @@ namespace TheStack
             WriteLine($"Peek at next item to display what will be stacked {names.Peek()}");
             WriteLine($"Now, after peek, popping {names.Pop()}");
 
-            Stack<string> stack2 = new Stack<string>(names.ToArray());
+            Stack<string> stack2 = new(names.ToArray());
 
             WriteLine("\nContents of the first copy:");
             foreach (string name in stack2)
@@ -137,6 +137,10 @@ namespace TheStack
             }
 
             WriteLine($"\nstack2.Contains (\"Dana\") = {stack2.Contains("Dana")}");
+
+            stack2.Clear();
+
+            WriteLine($"\nstack2.Count = {stack2.Count}");
         }
     }
 }
