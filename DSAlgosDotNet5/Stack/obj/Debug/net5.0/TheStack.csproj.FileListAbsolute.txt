@@ -1,0 +1,16 @@
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\bin\Debug\net5.0\TheStack.exe
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\bin\Debug\net5.0\TheStack.deps.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\bin\Debug\net5.0\TheStack.runtimeconfig.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\bin\Debug\net5.0\TheStack.runtimeconfig.dev.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\bin\Debug\net5.0\TheStack.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\bin\Debug\net5.0\ref\TheStack.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\bin\Debug\net5.0\TheStack.pdb
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\TheStack.csproj.AssemblyReference.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\TheStack.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\TheStack.AssemblyInfoInputs.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\TheStack.AssemblyInfo.cs
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\TheStack.csproj.CoreCompileInputs.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\TheStack.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\ref\TheStack.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\TheStack.pdb
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\Stack\obj\Debug\net5.0\TheStack.genruntimeconfig.cache

@@ -16,9 +16,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\LinkedList.csproj",
-      "projectName": "LinkedList",
-      "projectPath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\LinkedList.csproj",
+      "projectUniqueName": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\TheLinkedList.csproj",
+      "projectName": "TheLinkedList",
+      "projectPath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\TheLinkedList.csproj",
       "packagesPath": "C:\\Users\\raybi\\.nuget\\packages\\",
       "outputPath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\obj\\",
       "projectStyle": "PackageReference",
@@ -70,7 +70,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

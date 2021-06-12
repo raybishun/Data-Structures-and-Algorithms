@@ -4,7 +4,7 @@ using System.Text;
 
 // Singly Linked List
 
-namespace LinkedList
+namespace TheLinkedList
 {
     class Program
     {

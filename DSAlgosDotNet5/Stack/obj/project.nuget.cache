@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xt4drTjiPDcmx0K9Y6HkIkK5IYu871KyOaLwA4qLN06MD4ykIB5Q9oJPf5hqNdRlIqI+pmqkNGw56joLUBEzew==",
+  "dgSpecHash": "Epnb+5tWI3o7GS+Dkty7JgrY9dja04T8dNNfQk1KOyxQZq55o7DEIvqyEHbAKu+qc81stlM7RMbjPTINlE6nwA==",
   "success": true,
-  "projectFilePath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\Stack\\Stack.csproj",
+  "projectFilePath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\Stack\\TheStack.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

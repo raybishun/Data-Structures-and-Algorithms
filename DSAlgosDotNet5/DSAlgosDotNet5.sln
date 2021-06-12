@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList", "LinkedList\LinkedList.csproj", "{5A36F1F7-47FE-4018-ADC9-B32C6D15587F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheLinkedList", "LinkedList\TheLinkedList.csproj", "{5A36F1F7-47FE-4018-ADC9-B32C6D15587F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{21651687-1DEF-4FBA-960A-3ADF8854AD68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheStack", "Stack\TheStack.csproj", "{21651687-1DEF-4FBA-960A-3ADF8854AD68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheQueue", "TheQueue\TheQueue.csproj", "{68A65913-3BC1-4FBE-BB21-DE2958E95044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{21651687-1DEF-4FBA-960A-3ADF8854AD68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21651687-1DEF-4FBA-960A-3ADF8854AD68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21651687-1DEF-4FBA-960A-3ADF8854AD68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A65913-3BC1-4FBE-BB21-DE2958E95044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A65913-3BC1-4FBE-BB21-DE2958E95044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A65913-3BC1-4FBE-BB21-DE2958E95044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A65913-3BC1-4FBE-BB21-DE2958E95044}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

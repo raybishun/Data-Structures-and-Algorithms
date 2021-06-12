@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LM4n8iBJ+b8eNOsHkslmVe6tlm+ow12c13XUrR1sOVEGtTDp83ojfKB6JaD+7fuHVAxrKyYt9NXc1o30lHKCzQ==",
+  "dgSpecHash": "K/NIoxnJm2otm1eEbUKsZCc4bmsjESdR5S8RSmhhhSDc4rPNZ4MAjxkz+z6iVETy2BhuBBoTzaRcVOnmT/POWQ==",
   "success": true,
-  "projectFilePath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\LinkedList.csproj",
+  "projectFilePath": "Z:\\Git\\Data-Structures-and-Algorithms\\DSAlgosDotNet5\\LinkedList\\TheLinkedList.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

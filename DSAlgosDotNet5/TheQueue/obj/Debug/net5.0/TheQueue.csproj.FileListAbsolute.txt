@@ -1,0 +1,15 @@
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\bin\Debug\net5.0\TheQueue.exe
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\bin\Debug\net5.0\TheQueue.deps.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\bin\Debug\net5.0\TheQueue.runtimeconfig.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\bin\Debug\net5.0\TheQueue.runtimeconfig.dev.json
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\bin\Debug\net5.0\TheQueue.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\bin\Debug\net5.0\ref\TheQueue.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\bin\Debug\net5.0\TheQueue.pdb
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.AssemblyInfoInputs.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.AssemblyInfo.cs
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.csproj.CoreCompileInputs.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\ref\TheQueue.dll
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.pdb
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.genruntimeconfig.cache
