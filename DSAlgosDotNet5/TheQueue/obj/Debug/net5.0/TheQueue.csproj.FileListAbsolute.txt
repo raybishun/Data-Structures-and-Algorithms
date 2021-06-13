@@ -13,3 +13,4 @@ Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\T
 Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\ref\TheQueue.dll
 Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.pdb
 Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.genruntimeconfig.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\TheQueue\obj\Debug\net5.0\TheQueue.csproj.AssemblyReference.cache

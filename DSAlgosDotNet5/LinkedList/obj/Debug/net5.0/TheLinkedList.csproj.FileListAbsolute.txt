@@ -13,3 +13,4 @@ Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\LinkedList\obj\Debug\net5.0
 Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\LinkedList\obj\Debug\net5.0\ref\TheLinkedList.dll
 Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\LinkedList\obj\Debug\net5.0\TheLinkedList.pdb
 Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\LinkedList\obj\Debug\net5.0\TheLinkedList.genruntimeconfig.cache
+Z:\Git\Data-Structures-and-Algorithms\DSAlgosDotNet5\LinkedList\obj\Debug\net5.0\TheLinkedList.csproj.AssemblyReference.cache
