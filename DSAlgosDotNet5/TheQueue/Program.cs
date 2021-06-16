@@ -11,7 +11,20 @@ namespace TheQueue
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MyQueue myQueue = new(5);
+            myQueue.Insert(100);
+            myQueue.Insert(10);
+            myQueue.Insert(20);
+            myQueue.Insert(30);
+            myQueue.View();
+
+            Console.WriteLine($"Front of queue is: {myQueue.PeekFront()}");
+
+            Console.WriteLine("About to remove an item from the queue...");
+
+            myQueue.Remove();
+
+            Console.WriteLine($"Front of queue is: {myQueue.PeekFront()}");
         }
     }
 
@@ -52,7 +65,7 @@ namespace TheQueue
             }
         }
 
-        private long Remove()
+        public long Remove()
         {
             long temp = myQueue[front];
             front++;
@@ -76,6 +89,16 @@ namespace TheQueue
         private bool IsFull()
         {
             return items == maxSize;
+        }
+
+        public void View()
+        {
+            Console.Write("[");
+            for (int i = 0; i < myQueue.Length; i++)
+            {
+                Console.Write($"{myQueue[i]} ");
+            }
+            Console.WriteLine("]");
         }
     }
 }
