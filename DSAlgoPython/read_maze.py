@@ -19,3 +19,9 @@ if __name__ == "__main__":
     maze = read_maze("mazes/modest_maze.txt")
     for row in maze:
         print(row)
+
+    print("\n-------------------\n")
+
+    maze = read_maze("mazes/challenge_maze.txt")
+    for row in maze:
+        print(row)
